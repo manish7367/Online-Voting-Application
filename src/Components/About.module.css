@@ -1,0 +1,31 @@
+.about-section{
+  height: 100vh;
+  width: 100%;
+  background-color: white;
+  color: black;
+  padding-left: 330px;
+  padding-top: 50px;
+}
+.about-heading{
+  font-size: 50px;
+}
+.about-heading::after{
+  content: '';
+  width: 413px;
+  border: 1.5px solid blue;
+  display: block;
+  font-size: 0px;
+}
+.grid-container-about{
+  height: 70%;
+  width: 80%;
+  /* background-color: aquamarine; */
+  display: grid;
+  grid-template-rows: repeat(5,1fr);
+  grid-template-columns: 81px 614px;
+  padding-top: 20px;
+  column-gap: 20px;
+}
+.about-text{
+  align-self: center;
+}

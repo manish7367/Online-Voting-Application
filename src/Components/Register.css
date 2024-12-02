@@ -1,0 +1,36 @@
+.register-container{
+  height: 50vh;
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly
+}
+.register-image-side{
+  width: 50%;
+  height: 100%;
+  padding-left: 175px;
+  padding-top: 60px;
+}
+.register-image{
+  height: 172%;
+  width: 67%;
+  background: url("registerpicture.png");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+.registration-form{
+  width: 50%;
+}
+.register-btn{
+  border: none;
+  outline: none;
+  text-transform: uppercase;
+  background-color: blue;
+  color: white;
+  padding: 0.3125rem 1.3rem;
+  font-size: 0.8rem;
+  font-family: cursive;
+  margin-left: 5rem;
+  border-radius: 7px;
+  margin-top: 0.3rem;
+  cursor: pointer;
+}

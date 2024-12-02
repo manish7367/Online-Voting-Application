@@ -1,0 +1,22 @@
+.edit-section{
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.edit-btn{
+  border: none;
+  outline: none;
+  text-transform: uppercase;
+  background-color: blue;
+  color: white;
+  padding: 0.3125rem 1.3rem;
+  font-size: 0.8rem;
+  font-family: cursive;
+  margin-left: 5rem;
+  border-radius: 7px;
+  margin-top: 0.3rem;
+  cursor: pointer;
+}

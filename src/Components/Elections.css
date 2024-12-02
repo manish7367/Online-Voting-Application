@@ -1,0 +1,38 @@
+.election-flex{
+  height: 40px;
+  width: 100%;
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  color: black;
+  border-radius: 5px;
+  /* gap: 10px; */
+  /* padding-top: px; */
+}
+.elections-container{
+  /* height: 88vh; */
+  height: 400px;
+  width: 50%;
+  margin: 0 auto;
+  /* background-color: black; */
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  margin-top: 39px;
+}
+.user-voting-election{
+  height: 22%;
+}
+.other-elections{
+  height: 68%;
+}
+.election-h1{
+  font-size: 20px;
+  margin-bottom: 5px;
+}
+.other-state-elections{
+  display: flex;
+  flex-direction: column;
+  gap: 22px;
+}

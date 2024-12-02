@@ -1,0 +1,16 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  /* background-color: #020630; */
+  background-color: #000329;
+  height: 100%;
+  width: 100%;
+  color: white;
+  /* color: rgba(19, 22, 246,0.9); */
+}
+#root{
+  height: 100%;
+}

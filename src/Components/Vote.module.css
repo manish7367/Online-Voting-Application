@@ -1,0 +1,110 @@
+.vote-container{
+  height: 100vh;
+  width: 100%;
+  /* background-color: aquamarine; */
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding-left: 350px;
+  padding-top: 50px;
+}
+.parties{
+  /* height: 70%; */
+  /* background-color: aquamarine;  */
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.party-container{
+  /* height: 50%; */
+  background-color: white;
+  color: black;
+  padding: 0 10px;
+  position: relative;
+  display: grid;
+  grid-template-columns: 40px 165px 175px 71px 80px;
+}
+/* input[type="checkbox"]{
+  height: 20px;
+  width: 20px;
+  /* border-radius: 50%; 
+  z-index: 10;
+  position: absolute;
+  top: 23px;
+  left: 10px;
+  opacity: 0;
+  /* display: none; 
+} */
+.expand{
+  border: none;
+  outline: none;
+  /* width: 60px; */
+  background-color: transparent;
+  cursor: pointer;
+}
+/* .candidate-name::before{
+  content: "";
+  height: 20px;
+  width: 20px;
+  border: 2px solid blue;
+  display: inline-block;
+  border-radius: 50%;
+  position: absolute;
+  top: 23px;
+  left: 10px;
+  z-index: 0;
+  /* opacity: 1; 
+} */
+.checkbox-round {
+  width: 25px;
+  height: 25px;
+  background-color: white;
+  border-radius: 50%;
+  /* vertical-align: middle; */
+  border: 2px solid blue;
+  appearance: none;
+  -webkit-appearance: none;
+  outline: none;
+  cursor: pointer;
+  align-self: center;
+}
+.checkbox-round:checked {
+  background-color: rgb(0, 0, 128,0.9);
+}
+.candidate-name, .party-name, .party-logo{
+  align-self: center;
+}
+.party-logo{
+  justify-self: center;
+}
+.description{
+  margin: 0 20px;
+  padding: 10px 30px;
+  background-color: white;
+  color: black;
+  display: flex;
+  flex-direction: column;
+  gap: 1px;
+  /* display: none; */
+}
+.expanded-container{
+  border: 2px solid blue;
+  background-color: gray;
+  padding: 0 10px;
+  position: relative;
+  display: grid;
+  grid-template-columns: 40px 165px 175px 71px 80px;
+}
+.vote-submit{
+  display: block;
+  margin-top: 15px;
+  margin-left: 200px;
+  border: none;
+  outline: none;
+  padding: 10px 50px;
+  font-family: "Seoge Script";
+  background-color: blue;
+  color: white;
+  cursor: pointer;
+}
